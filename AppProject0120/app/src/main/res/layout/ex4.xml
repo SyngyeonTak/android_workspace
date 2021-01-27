@@ -4,7 +4,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center_horizontal">
-
     <!-- 자신이 보유한 자식을 대상으로 한 정렬 -->
 
     <Button
@@ -12,7 +11,7 @@
         android:layout_width="100dp"
         android:layout_height="100dp"/>
 
-    <!-- 자신을 배치하고 있는 부모컨테이너너를 대으로 한 정렬 -->
+    <!-- 자신을 배치하고 있는 부모 컨테이너를 기준으로 한 정렬 -->
     <Button
         android:layout_gravity="left"
         android:text="버튼2"

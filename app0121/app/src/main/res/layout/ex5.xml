@@ -4,6 +4,7 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
+    <!-- top side -->
     <LinearLayout
         android:orientation="horizontal"
         android:layout_weight="1"
@@ -11,10 +12,10 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <!-- (left side) of top -->
+        <!-- (left side) of top-->
         <View
             android:layout_weight="1"
-            android:background="#EEF4AE"
+            android:background="#E6EDA8"
             android:layout_width="match_parent"
             android:layout_height="match_parent"/>
 
@@ -25,23 +26,24 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <view
+            <View
+                android:background="#A0CDD3"
                 android:layout_weight="1"
-                android:background="#FF000000"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"/>
 
-            <view
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
+            <View
+                android:background="#FFFFFFFF"
                 android:layout_weight="1"
-                android:background="#FF222222" />
-
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
         </LinearLayout>
     </LinearLayout>
+
+    <!-- bottom side-->
     <View
         android:layout_weight="1"
-        android:background="#F44336"
+        android:background="#F10909"
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>
 
